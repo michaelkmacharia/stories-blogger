@@ -1,0 +1,45 @@
+{
+  "name": "stories-blogger",
+  "version": "1.0.0",
+  "description": "A NodeJS-based webapp for blogging users' stories.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon app",
+		"prod": "cross-env NODE_ENV=production node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universal-projects/stories-blogger.git"
+  },
+  "keywords": [
+    "stories",
+    "blogger",
+    "stories-blogger"
+  ],
+  "author": "Michael K Macharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/universal-projects/stories-blogger/issues"
+  },
+  "homepage": "https://github.com/universal-projects/stories-blogger#readme",
+  "dependencies": {
+		"colors": "^1.4.0",
+    "connect-mongo": "^3.2.0",
+		"cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+		"express": "^4.17.3",
+    "express-handlebars": "^4.0.4",
+    "express-session": "^1.17.1",
+    "fs-extra": "^9.0.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+		"nodemon": "^2.0.15"
+  }
+}
